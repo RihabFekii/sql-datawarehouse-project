@@ -52,7 +52,15 @@ To understand the data integration between the different tables and see the rela
 
 ## Data modeling 
 
-After creating the bronze layer which hosts the raw data and then the silver layer in which we did data transformation, in the gold layer the data is modelled according to the star schema having a fact table and dimensions. The data flow is explained in the following graph: 
+After creating the bronze layer which hosts the raw data and then the silver layer in which we did data transformation, in the gold layer the data is modelled according to the star schema having a fact table and dimensions.
+
+The data model is like the following: 
+
+![data model](docs/data_model.png)
+
+ The data flow is explained in the following graph: 
 
 ![data flow](docs/data_flow.png)
+
+
 

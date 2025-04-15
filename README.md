@@ -61,6 +61,3 @@ The data model is like the following:
  The data flow is explained in the following graph: 
 
 ![data flow](docs/data_flow.png)
-
-
-
